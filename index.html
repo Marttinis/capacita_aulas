@@ -15,11 +15,11 @@
     <nav id="navbar">
         <img id="logo" src="images\imagem_2024-11-05_110325305-removebg-preview.png" alt="logo">
 
-        <li class="linkLista"><a href="#inicio">Início</a></li>
-        <li class="linkLista"><a href="#conteudo">Conteúdo</a></li>
-        <li class="linkLista"><a href="#videos">Vídeos</a></li>
-        <li class="linkLista"><a href="#especialistas">Especialistas</a></li>
-        <li class="linkLista"><a href="#contato">Contato</a></li>
+        <li class="linkLista"><a class="linkbar" href="#inicio">Início</a></li>
+        <li class="linkLista"><a class="linkbar" href="#conteudo">Conteúdo</a></li>
+        <li class="linkLista"><a class="linkbar" href="#videos">Vídeos</a></li>
+        <li class="linkLista"><a class="linkbar" href="#especialistas">Especialistas</a></li>
+        <li class="linkLista"><a class="linkbar" href="#contato">Contato</a></li>
 
         <form>
             <input class="pesquisa" type="text" placeholder="procurar..." required><button type="submit"
@@ -140,10 +140,12 @@
         </section>
 
         <section id="contato">
-            <h2>Insira um Comentario</h2>
+            
 
-            <form>
-                <div>
+            <form id="comentario-form">
+                
+                <div id="div-form">
+                    <h2>Insira um Comentario</h2>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" placeholder="Digite o seu nome completo" required> <br>
 
