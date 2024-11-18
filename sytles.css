@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: grey;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+
+
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 3px;
+    margin: auto;
+    font-size: 15px;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    padding-right: -3px;
+    cursor: pointer;
+    
+   
+   
+}
+
+.pesquisa{
+    border-radius: 4px;
+    outline: none; 
+    border: 0px solid white;
+    cursor: pointer;
+    
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    padding-left: 8px;
+    margin-right: 8px;
+}
+
+article{
+    
+    margin-bottom: 10px;
+}
+
+#imagem2{
+    width: 300px;
+}
+
+#perfil1{
+    border: 3px solid black;
+    margin-bottom: 3px;
+}
+
+#perfil2{
+    border: 3px solid black;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    
+}
+
+
+@media screen and (max-width: 1280px){
+    
+}
