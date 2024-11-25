@@ -143,26 +143,26 @@ article ul li {
 #especialistas{
     display: flex;
     gap: 10px;
-   
     justify-content: space-around;
 }
 
-#perfil1{
+#especialistas .perfil{
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border: 3px solid black;
-    margin-bottom: 3px;
 }
 
-.imgperfil{
-    width: 30%;
-    height: auto;
+
+
+.perfil img{
+    width: 200px;
+    height: 200px;
 }
 
-#perfil2{
-    border: 3px solid black;
-    margin-bottom: 10px;
-    
 
-}
+
 
 #comentario-form{
     display: flex;
@@ -173,6 +173,28 @@ article ul li {
 #div-form{
     border: 2px solid black;
     
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgb(2, 31, 4) ;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul a{
+    color: white;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 0px) and (max-width: 480px){
