@@ -1,0 +1,195 @@
+body{
+    background-color: #f4f4f9;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; 
+    
+}
+
+header{
+   
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: rgb(2, 31, 4);
+}
+
+
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 3px;
+    margin: auto;
+    font-size: 15px;
+   
+    
+   
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    padding-right: -3px;
+    cursor: pointer;
+    
+   
+   
+}
+
+.pesquisa{
+    border-radius: 4px;
+    outline: none; 
+    border: 0px solid white;
+    cursor: pointer;
+    
+
+
+}
+
+.linkbar{
+    color: white;
+    transition: color 0.3s ease; 
+    
+}
+
+.linkbar:hover{
+    color: rgb(187, 186, 186);
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    margin-top: 40px;
+    /* border: 3px solid black; */
+}
+#inicio{
+    background-color: wheat;
+    color: black;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-bottom: 2px;
+    margin-bottom: 90px;
+    
+
+}
+
+
+#inicio h1{
+    background-color: rgb(2, 31, 4);
+    border-radius: 5px;
+    color: white;
+}
+
+
+#conteudo{
+    background-color: wheat;
+    color: black;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-bottom: 2px;
+    margin-bottom: 90px;
+    text-decoration: none;
+}
+
+#lista1{
+    text-decoration: none;
+}
+
+article ul li {
+    text-decoration: none;
+}
+
+#imagem1{
+    width: 30%;
+    height: auto;
+}
+
+#imagem2{
+    width: 70%;
+    height: auto;
+
+}
+
+#videos{
+    background-color: wheat;
+    color: black;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-bottom: 2px;
+    margin-bottom: 90px;
+
+}
+
+#videos iframe{
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+    border: 4px solid rgb(2, 31, 4);
+}
+
+#especialistas{
+    display: flex;
+    gap: 10px;
+   
+    justify-content: space-around;
+}
+
+#perfil1{
+    border: 3px solid black;
+    margin-bottom: 3px;
+}
+
+.imgperfil{
+    width: 30%;
+    height: auto;
+}
+
+#perfil2{
+    border: 3px solid black;
+    margin-bottom: 10px;
+    
+
+}
+
+#comentario-form{
+    display: flex;
+    justify-content: center;
+
+}
+
+#div-form{
+    border: 2px solid black;
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    
+}
+
+
+@media screen and (max-width: 1280px){
+    
+}
