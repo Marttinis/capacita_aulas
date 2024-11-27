@@ -12,14 +12,16 @@
 <header>
 
 
-    <nav id="navbar">
+    <nav>
         <img id="logo" src="assets\images\imagem_2024-11-05_110325305-removebg-preview.png" alt="logo">
 
-        <li class="linkLista"><a class="linkbar" href="#inicio">Início</a></li>
-        <li class="linkLista"><a class="linkbar" href="#conteudo">Conteúdo</a></li>
-        <li class="linkLista"><a class="linkbar" href="#videos">Vídeos</a></li>
-        <li class="linkLista"><a class="linkbar" href="#especialistas">Especialistas</a></li>
-        <li class="linkLista"><a class="linkbar" href="#contato">Contato</a></li>
+        <ul class="navbar">
+            <li><a class="linkbar" href="#inicio">Início</a></li>
+            <li><a class="linkbar" href="#conteudo">Conteúdo</a></li>
+            <li><a class="linkbar" href="#videos">Vídeos</a></li>
+            <li><a class="linkbar" href="#especialistas">Especialistas</a></li>
+            <li><a class="linkbar" href="#contato">Contato</a></li>
+        </ul>
 
         <form>
             <input class="pesquisa" type="text" placeholder="procurar..." required><button type="submit"
@@ -32,55 +34,64 @@
 <body>
     <main>
         <section id="inicio">
-            <h1>Sobre o Blog</h1>
-            <p>
-                O blog ABC em Libras tem como objetivo trazer informações a respeito do basico em liibras,<br>
-                como o alfabeto, sinais basicos de comunicação e dicas com professores especializados. Todo <br>
-                o conteúdo é apresentado através de videoaulas e imagens, dessa forma o aprendizado se torna <br>
-                mais dinamico. Esperamos com essa iniciativa, trazer mais acesso ao aprendizado em libras, <br>
-                por tanto, aproveite e vamos estudar!!!
+
+            <div>
+                <div>
+                    <h1>Sobre o Blog</h1>
+                </div>
+                <p>
+                    O blog ABC em Libras tem como objetivo trazer informações a respeito do basico em liibras,
+                    como o alfabeto, sinais basicos de comunicação e dicas com professores especializados. Todo
+                    o conteúdo é apresentado através de videoaulas e imagens, dessa forma o aprendizado se torna
+                    mais dinamico. Esperamos com essa iniciativa, trazer mais acesso ao aprendizado em libras,
+                    por tanto, aproveite e vamos estudar!!!
 
 
-            </p>
+                </p>
+            </div>
         </section>
 
         <section id="conteudo">
             <article>
                 <h2>O que o Alfabeto Manual ?</h2>
                 <p>
-                    É um recurso das línguas de sinais que utiliza as mãos para representar o alfabeto das <br> línguas
-                    orais. Cada letra ou número são representadas por configurações de mão específicas. <br>O Alfabeto
-                    Manual também é conhecido como Alfabeto Digital, Datilologia ou Dactilologia. <br>
+                    É um recurso das línguas de sinais que utiliza as mãos para representar o alfabeto das línguas
+                    orais. Cada letra ou número são representadas por configurações de mão específicas. O Alfabeto
+                    Manual também é conhecido como Alfabeto Digital, Datilologia ou Dactilologia.
 
                 </p>
-                <img 
-                    id="imagem1"
-                    src="https://academiadelibras.com/wp-content/webp-express/webp-images/uploads/2023/04/alfabeto-em-libras-para-imprimir-246x300.jpeg.webp"
-                    alt="alfabeto manual em libras" title="alfabeto manual em libras"> <br>
+                <div class="imagem">
+                    <img id="imagem1"
+                        src="https://academiadelibras.com/wp-content/webp-express/webp-images/uploads/2023/04/alfabeto-em-libras-para-imprimir-246x300.jpeg.webp"
+                        alt="alfabeto manual em libras" title="alfabeto manual em libras">
+                    <a href="https://www.libras.com.br/alfabeto-manual">Leia mais</a>
+                </div>
 
-                <a href="https://www.libras.com.br/alfabeto-manual">Leia mais</a>
+
             </article>
 
             <article>
                 <h2>Os cinco parâmetros da Libras</h2>
                 <p>
-                    Quando falamos sobre os articuladores da língua de sinais, certamente podemos pensar em <br> mãos.
-                    Mas na realidade, são usados como articuladores, além de mãos, outras partes do <br> corpo, como a
-                    cabeça, face e tronco. <br>
+                    Quando falamos sobre os articuladores da língua de sinais, certamente podemos pensar em mãos.
+                    Mas na realidade, são usados como articuladores, além de mãos, outras partes do corpo, como a
+                    cabeça, face e tronco.
                 </p>
-                <ul id="lista1">
+                <!-- <ul id="lista1">
                     <li> A configuração da mão;</li>
                     <li>Ponto ou local de articulação;</li>
                     <li>O movimento;</li>
                     <li>Orientação/direcionalidade;</li>
                     <li>Expressão facial e/ou corporal;</li>
-                </ul>
+                </ul> -->
 
-                <img id="imagem2"
-                    src="https://www.libras.com.br/ct__images/artigos/os-5-parametros-da-libras/exemplos-de-configuracoes-de-mao-libras.png"
-                    alt="configuração de mãos"> <br>
+                <div class="imagem">
+                    <img id="imagem2"
+                        src="https://www.libras.com.br/ct__images/artigos/os-5-parametros-da-libras/exemplos-de-configuracoes-de-mao-libras.png"
+                        alt="configuração de mãos">
 
-                <a href="https://www.libras.com.br/os-cinco-parametros-da-libras">Leia mais</a>
+                    <a href="https://www.libras.com.br/os-cinco-parametros-da-libras">Leia mais</a>
+                </div>
 
             </article>
 
@@ -95,7 +106,7 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <p>
-                Video de apresentação do alfabeto em libras, perceba que algumas letrs exigem movimentos
+                Video de apresentação do alfabeto em libras, perceba que algumas letras exigem movimentos
                 especificos, boa aula.
             </p>
 
@@ -111,15 +122,16 @@
         </section>
 
         <h2>Personalidades famosas no mundo da Libras</h2>
-    
+
         <section id="especialistas">
 
-            
 
-            <div class = "perfil">
 
-                
-                <img class="imgperfil" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2uULIpj2qy0g2mOF1RwpI0OHLVxY9pwFNGA&s"
+            <div class="perfil">
+
+
+                <img class="imgperfil"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2uULIpj2qy0g2mOF1RwpI0OHLVxY9pwFNGA&s"
                     alt="foto da autora Emmanuelle Laborit" title="Emmanuelle Laborit">
                 <h3>Emmanuelle Laborit</h3> <br>
                 <a href="https://www.instagram.com/lamanouche2022/">Rede social</a> <br>
@@ -132,8 +144,9 @@
             </div>
 
 
-            <div class = "perfil">
-                <img class="imgperfil" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvADZ_Qo-9D6Jj00EpfdQIJVyVmv4qFbZglA&s"
+            <div class="perfil">
+                <img class="imgperfil"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvADZ_Qo-9D6Jj00EpfdQIJVyVmv4qFbZglA&s"
                     alt="Pierre Desloges" title="Pierre Desloges">
                 <h3>Pierre Desloges</h3> <br>
                 <a href="https://www.instagram.com/lamanouche2022/">Rede social</a> <br>
@@ -145,11 +158,14 @@
             </div>
 
             <div class="perfil">
-                <img src="https://media.licdn.com/dms/image/C5603AQFkSUtExUa4WQ/profile-displayphoto-shrink_200_200/0/1516783905534?e=2147483647&v=beta&t=2C1OmSeb9Gyqpbm_bg4wPn7KiyvNqj7eUcQwJAMZYLg" alt="Sueli Ramalho Segala" title="Sueli Ramalho Segala">
+                <img src="https://media.licdn.com/dms/image/C5603AQFkSUtExUa4WQ/profile-displayphoto-shrink_200_200/0/1516783905534?e=2147483647&v=beta&t=2C1OmSeb9Gyqpbm_bg4wPn7KiyvNqj7eUcQwJAMZYLg"
+                    alt="Sueli Ramalho Segala" title="Sueli Ramalho Segala">
                 <h3>Sueli Ramalho Segala</h3>
                 <a href="https://www.instagram.com/sueli.ramalho/">Rede social</a> <br>
                 <p>
-                    Entre os escritores surdos brasileiros, a mais conhecida é Sueli Ramalho Segala, que também é professora, atriz e trabalha como intérprete da Língua Brasileira de Sinais – Libras. O livro mais conhecido dessa autora é “A Imagem do Pensamento – Libras. ”
+                    Entre os escritores surdos brasileiros, a mais conhecida é Sueli Ramalho Segala, que também é
+                    professora, atriz e trabalha como intérprete da Língua Brasileira de Sinais – Libras. O livro mais
+                    conhecido dessa autora é “A Imagem do Pensamento – Libras. ”
                 </p>
 
 
@@ -158,41 +174,42 @@
 
         </section>
 
-        
+
         <section id="contato">
 
-            
+
 
             <form>
                 <h2>Insira um Comentario</h2>
-                
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" placeholder="Digite o seu nome completo" required> 
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="Digite seu email" required> 
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome completo" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
 
 
-                    <label for="assunto">Assunto:</label>
-                    <select name="assunto" id="assunto" required>
-                        <option value="duvidas">Dúvidas</option>
-                        <option value="recomendações">Recomendações</option> 
-                        <option value="outro">Outro</option> 
-                    </select> 
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="duvidas">Dúvidas</option>
+                    <option value="recomendações">Recomendações</option>
+                    <option value="outro">Outro</option>
+                </select>
 
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea name="texto" id="texto" spellcheck="true" placeholder="Digite sua mensagem..." required></textarea> 
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="texto" id="texto" spellcheck="true" placeholder="Digite sua mensagem..."
+                    required></textarea>
 
-                    <div>
-                        <button type="submit">Enviar</button>
-                    </div>
-                
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+
             </form>
         </section>
 
-        
+
         <footer>
-           
+
             <ul>
                 <li><a href="">Politicas de privacidade</a></li>
                 <li><a href="">Termos de Uso</a></li>
